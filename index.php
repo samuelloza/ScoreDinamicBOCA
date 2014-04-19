@@ -272,6 +272,7 @@ $new='
 			if(indexori >= indexnuevo){
 			//solo subidas de score respecto al nuevo
 			while(indexori >= indexnuevo){
+				alert(" Animation");
 				var a=deletenumer(indexnuevo-1,0,"0");
 				var b=document.getElementById("ori").rows[indexori-1].innerHTML;
 				document.getElementById("ori").rows[indexori-1].innerHTML=a;
