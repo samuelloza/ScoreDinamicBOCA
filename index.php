@@ -1,256 +1,11 @@
-<?php
-$ori='
-<table id="ori">
-	<tr class="sitegroup1"><td>1</td>
-		<td nowrap="">team1/1 </td>
-		<td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">0 (0)</td></tr><tr class="sitegroup1"><td>2</td>	<td nowrap="">team2/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>3</td>
-		<td nowrap="">team3/1 </td><td>Imanol Villareal</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>4</td>
-		<td nowrap="">team4/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>5</td>
-		<td nowrap="">team5/1 </td><td>Carlos Fernando Torrez</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>6</td>
-		<td nowrap="">team6/1 </td><td>Rodrigo Castillo</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>7</td>
-		<td nowrap="">team7/1 </td><td>Abraham Vilca</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>8</td>
-		<td nowrap="">team9/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-
-	<tr class="sitegroup1"><td>9</td>
-		<td nowrap="">team10/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>10</td>
-		<td nowrap="">team11/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>11</td>
-		<td nowrap="">team12/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>12</td>
-		<td nowrap="">team13/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>13</td>
-		<td nowrap="">team14/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>15</td>
-		<td nowrap="">team15/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>14</td>
-		<td nowrap="">team16/1 </td><td>Diego Adrian Charca</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>16</td>
-		<td nowrap="">team17/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>17</td>
-		<td nowrap="">team18/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>18</td>
-		<td nowrap="">team19/1 </td><td>Gauss</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-	<tr class="sitegroup1"><td>19</td>
-		<td nowrap="">team21/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-	</tr>
-</table>';
-//----------------------------------------------------------------------
-
-$new='
-<table id="nuevo">
-	<tr class="sitegroup1"><td>1</td>
-		<td nowrap="" id="sam">team5/1 </td><td>Carlos Fernando Torrez</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">2/49</font>
-	</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/13</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/16</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/86</font>
-</td>  <td nowrap="">4 (184)</td>
-</tr>
-<tr class="sitegroup2"><td>1</td>
-	<td nowrap="" id="sam">team5/1 </td><td>Carlos Fernando Torrez</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">2/49</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/13</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/16</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/86</font>
-</td>  <td nowrap="">4 (184)</td>
-</tr>
-<tr class="sitegroup1"><td>2</td>
-	<td nowrap="" id="sam">team16/1 </td><td>Diego Adrian Charca</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/29</font>
-</td><td nowrap="">&nbsp;<font size="-2">1/-</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/47</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/35</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/73</font>
-</td>  <td nowrap="">4 (184)</td>
-</tr>
-<tr class="sitegroup2"><td>2</td>
-	<td nowrap="" id="sam">team16/1 </td><td>Diego Adrian Charca</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/29</font>
-</td><td nowrap="">&nbsp;<font size="-2">1/-</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/47</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/35</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/73</font>
-</td>  <td nowrap="">4 (184)</td>
-</tr>
-<tr class="sitegroup1"><td>3</td>
-	<td nowrap="" id="sam">team6/1 </td><td>Rodrigo Castillo</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">3/49</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/30</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/11</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">3 (130)</td>
-</tr>
-<tr class="sitegroup2"><td>3</td>
-	<td nowrap="" id="sam">team6/1 </td><td>Rodrigo Castillo</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">3/49</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/30</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/11</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">3 (130)</td>
-</tr>
-<tr class="sitegroup1"><td>4</td>
-	<td nowrap="" id="sam">team7/1 </td><td>Abraham Vilca</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">2/60</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;<font size="-2">6/-</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/5</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">2 (85)</td>
-</tr>
-<tr class="sitegroup2"><td>4</td>
-	<td nowrap="" id="sam">team7/1 </td><td>Abraham Vilca</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">2/60</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;<font size="-2">6/-</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/5</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">2 (85)</td>
-</tr>
-<tr class="sitegroup1"><td>5</td>
-	<td nowrap="" id="sam">team19/1 </td><td>Gauss</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">2/84</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/17</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">2 (121)</td>
-</tr>
-<tr class="sitegroup2"><td>5</td>
-	<td nowrap="" id="sam">team19/1 </td><td>Gauss</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">2/84</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/17</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">2 (121)</td>
-</tr>
-<tr class="sitegroup1"><td>6</td>
-	<td nowrap="" id="sam">team3/1 </td><td>Imanol Villareal</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">3/68</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;<font size="-2">3/-</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/40</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">2 (148)</td>
-</tr>
-<tr class="sitegroup2"><td>6</td>
-	<td nowrap="" id="sam">team3/1 </td><td>Imanol Villareal</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">3/68</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;<font size="-2">3/-</font>
-</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/40</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">2 (148)</td>
-</tr>
-<tr class="sitegroup1"><td>7</td>
-	<td nowrap="" id="sam">team11/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/74</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">1 (74)</td>
-</tr>
-<tr class="sitegroup2"><td>7</td>
-	<td nowrap="" id="sam">team11/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">1/74</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">1 (74)</td>
-</tr>
-<tr class="sitegroup1"><td>8</td>
-	<td nowrap="" id="sam">team2/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">2/64</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">1 (84)</td>
-</tr>
-<tr class="sitegroup2"><td>8</td>
-	<td nowrap="" id="sam">team2/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">2/64</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">1 (84)</td>
-</tr>
-<tr class="sitegroup1"><td>9</td>
-	<td nowrap="" id="sam">team9/1 </td><td></td><td nowrap="">&nbsp;<font size="-2">1/-</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">2/90</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">1 (110)</td>
-</tr>
-<tr class="sitegroup2"><td>9</td>
-	<td nowrap="" id="sam">team9/1 </td><td></td><td nowrap="">&nbsp;<font size="-2">1/-</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">2/90</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">1 (110)</td>
-</tr>
-<tr class="sitegroup1"><td>10</td>
-	<td nowrap="" id="sam">team14/1 </td><td></td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">3/87</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;<font size="-2">2/-</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">1 (127)</td>
-</tr>
-<tr class="sitegroup2"><td>10</td>
-	<td nowrap="" id="sam">team14/1 </td><td></td><td nowrap=""><img alt=":" width="18" src="/boca/src/balloons/6bb61e3b7bce0931da574d19d1d82c88.png"><font size="-2">3/87</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;<font size="-2">2/-</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">1 (127)</td>
-</tr>
-<tr class="sitegroup1"><td>11</td>
-	<td nowrap="" id="sam">team1/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;<font size="-2">1/-</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup2"><td>11</td>
-	<td nowrap="" id="sam">team1/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;<font size="-2">1/-</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup1"><td>12</td>
-	<td nowrap="" id="sam">team4/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup2"><td>12</td>
-	<td nowrap="" id="sam">team4/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup1"><td>13</td>
-	<td nowrap="" id="sam">team10/1 </td><td></td><td nowrap="">&nbsp;<font size="-2">2/-</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup2"><td>13</td>
-	<td nowrap="" id="sam">team10/1 </td><td></td><td nowrap="">&nbsp;<font size="-2">2/-</font>
-</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup1"><td>14</td>
-	<td nowrap="" id="sam">team12/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup2"><td>14</td>
-	<td nowrap="" id="sam">team12/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup1"><td>15</td>
-	<td nowrap="" id="sam">team13/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;<font size="-2">1/-</font>
-</td><td nowrap="">&nbsp;<font size="-2">2/-</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup2"><td>15</td>
-	<td nowrap="" id="sam">team13/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;<font size="-2">1/-</font>
-</td><td nowrap="">&nbsp;<font size="-2">2/-</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup1"><td>16</td>
-	<td nowrap="" id="sam">team15/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;<font size="-2">16/-</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup2"><td>16</td>
-	<td nowrap="" id="sam">team15/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;<font size="-2">16/-</font>
-</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup1"><td>17</td>
-	<td nowrap="" id="sam">team17/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup2"><td>17</td>
-	<td nowrap="" id="sam">team17/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup1"><td>18</td>
-	<td nowrap="" id="sam">team18/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup2"><td>18</td>
-	<td nowrap="" id="sam">team18/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup1"><td>19</td>
-	<td nowrap="" id="sam">team21/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-<tr class="sitegroup2"><td>19</td>
-	<td nowrap="" id="sam">team21/1 </td><td></td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td><td nowrap="">&nbsp;&nbsp;</td>  <td nowrap="">0 (0)</td>
-</tr>
-</table>
-';
-//echo "<br><br>".$new;
-?>
 <!DOCTYPE html>
 <html>
 <head>
-	<?php echo $new; ?>
-	<?php echo $ori; ?>
 	<script type="text/javascript">
 	//ori sam
 	//new nuevo
 	var indexnuevo="";
+	
 	window.onload = function() {
 		borrarepetido();
 		var indexori=0;
@@ -271,23 +26,53 @@ $new='
 
 			if(indexori >= indexnuevo){
 			//solo subidas de score respecto al nuevo
-			while(indexori >= indexnuevo){
-				alert(" Animation");
-				var a=deletenumer(indexnuevo-1,0,"0");
-				var b=document.getElementById("ori").rows[indexori-1].innerHTML;
-				document.getElementById("ori").rows[indexori-1].innerHTML=a;
-				document.getElementById("ori").rows[indexori].innerHTML=b;
-				indexori--;
-			}
+			animate(indexori,indexnuevo);
 		}else{
 				//si mantiene lugar 
 				var a=deletenumer(sam,0,"0");
 				document.getElementById("ori").rows[sam].innerHTML=a;
 			}
-			deletenumer(sam,1,sam+1);
+			
+			deletenumer(sam,1,sam+1); //bug
 		}
+		
 	}
 
+	function animate(indexori,indexnuevo){
+		if(indexori >= indexnuevo){
+			//indexnuevo--;
+			while(indexori >= indexnuevo){
+				if(indexori!=indexnuevo){
+					var a=deletenumer(indexnuevo-1,0,"0");
+					var b=document.getElementById("ori").rows[indexori-1].innerHTML;
+					document.getElementById("ori").rows[indexori-1].innerHTML=a;
+					document.getElementById("ori").rows[indexori].innerHTML=b;
+				}else{
+					return;
+				}
+				alert("");
+				indexori--;
+				sleep(550);
+			//	animate(indexori,indexnuevo); recursivo 
+		}
+	}
+}
+
+function sleep(milliseconds) {
+	var d = new Date();
+	var begin = d.getTime();
+/*
+	Encontrar alguna forma de q no se muestre el alert
+	para q se vea la animacion, si no es muy rapido y no
+	se ve nada ;(
+		*/
+		while (Math.abs((d.getTime()-begin ))<milliseconds){
+			//alert("-");
+			var d2=new Date();
+			begin = d2.getTime();
+		} 
+	}
+	//function alert() {}
 /*
 *
 input :
@@ -315,7 +100,7 @@ ori = cadena donde esta el tr
 					ans+=ori[j];
 				}
 				if(op){
-					document.getElementById("ori").rows[inde].innerHTML=ans;
+					document.getElementById("ori").rows[inde+1].innerHTML=ans;
 				}
 				return ans;
 			}
@@ -353,6 +138,7 @@ ori = cadena donde esta el tr
 			function borrarepetido(){
 				for(var i=0;i< 19;i++){	
 					document.getElementById("nuevo").deleteRow(i+1);
+					document.getElementById("ori").deleteRow(i+1);
 				}
 			}
 
@@ -393,6 +179,12 @@ ori = cadena donde esta el tr
 
 	</head>
 	<body>
-
+		<?php
+		include'../scoreori.html';
+		echo "<div style='display:none;'>";
+		include'../scorenew.html';
+		echo"</div>";
+//echo "<br><br>".$new;
+		?>
 	</body>
 	</html>
